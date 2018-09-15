@@ -1,0 +1,29 @@
+#textarea {
+    -fx-background-color: #000000;
+}
+
+#textarea {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+#textarea .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+#textarea:focused .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+#textarea:focused {
+    -fx-highlight-fill: #7ecfff;
+}
+
+#textarea .content {
+    -fx-padding: 0px;
+    -fx-text-fill: gray;
+    -fx-highlight-fill: #7ecfff;
+}
+#labels {
+    -fx-font-weight: bold;
+}
